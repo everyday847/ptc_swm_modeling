@@ -1,0 +1,8 @@
+-s lib5_start.pdb
+-fasta target.fasta
+-nstruct 10
+-use_legacy_stepwise_job_distributor
+-score:weights stepwise/rna/rna_res_level_energy7beta.wts
+-out:file:silent swm_design.out
+-extra_min_res C:2087 C:2092 C:2227 C:2232
+-cycles 1000

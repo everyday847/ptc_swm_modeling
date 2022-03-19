@@ -1,0 +1,8 @@
+-in:file:fasta edited_H92.fasta
+-s refined_H92.pdb
+-nstruct 10
+-cycles 2000
+-extra_min_res D:VB:2556 D:VB:2552 D:VB:2546 D:VB:2562
+-out:file:silent swm_design.out
+-use_legacy_stepwise_job_distributor
+-score:weights stepwise/rna/rna_res_level_energy7beta.wts  

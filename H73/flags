@@ -1,0 +1,8 @@
+-in:file:fasta edited_takeoff_10.fasta
+-s refined_takeoff_10.pdb
+-nstruct 10
+-cycles 1000
+-extra_min_res D:VB:2045 D:VB:2623 D:VB:2051 D:VB:2617
+-out:file:silent swm_design.out
+-use_legacy_stepwise_job_distributor
+-score:weights stepwise/rna/rna_res_level_energy7beta.wts
